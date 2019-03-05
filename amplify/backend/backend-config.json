@@ -1,0 +1,14 @@
+{
+	"auth": {
+		"cognito7bcc58c3": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"analytics": {
+		"picoweb": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
