@@ -1,3 +1,12 @@
+App Objectives: 
+    Working with the Amplify toolchain
+    Creating a React app
+    Adding analytics to a React app with Amplify
+    User authentication via AWS
+    Using Amplify to simplify account creation and management
+    Creating a GraphQL API
+    Storing files online
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
