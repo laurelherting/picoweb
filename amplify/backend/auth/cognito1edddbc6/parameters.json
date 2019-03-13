@@ -1,0 +1,30 @@
+{
+    "identityPoolName": "picoweb_identitypool_863e3be4",
+    "allowUnauthenticatedIdentities": true,
+    "thirdPartyAuth": false,
+    "lambdaLogPolicy": "picoweb_lambda_log_policy",
+    "openIdLambdaRoleName": "picoweb_openid_lambda_role",
+    "openIdRolePolicy": "picoweb_openid_pass_role_policy",
+    "openIdLambdaIAMPolicy": "picoweb_openid_lambda_iam_policy",
+    "openIdLogPolicy": "picoweb_openid_lambda_log_policy",
+    "authSelections": "identityPoolOnly",
+    "resourceName": "cognito1edddbc6",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    }
+}
