@@ -1,10 +1,10 @@
 {
     "appName": "picoweb",
-    "roleName": "pinpointLambdaRole91f293ef",
-    "cloudWatchPolicyName": "cloudWatchPolicy91f293ef",
-    "pinpointPolicyName": "pinpointPolicy91f293ef",
-    "authPolicyName": "pinpoint_amplify_91f293ef",
-    "unauthPolicyName": "pinpoint_amplify_91f293ef",
+    "roleName": "pinpointLambdaRoled540876b",
+    "cloudWatchPolicyName": "cloudWatchPolicyd540876b",
+    "pinpointPolicyName": "pinpointPolicyd540876b",
+    "authPolicyName": "pinpoint_amplify_d540876b",
+    "unauthPolicyName": "pinpoint_amplify_d540876b",
     "authRoleName": {
         "Ref": "AuthRoleName"
     },
