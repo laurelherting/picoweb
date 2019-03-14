@@ -381,3 +381,8 @@ Outputs :
   AppClientSecret:
     Value: !GetAtt UserPoolClientInputs.appSecret
   
+   
+   
+  
+   
+  
